@@ -1,11 +1,28 @@
 # Sets user-defined palette
 palette = "catppuccin_macchiato"
+right_format = "$time"
+
+[time]
+disabled = false
+# use_12hr = true
+time_format = "%I:%M:%S %p"
+style = "bold bright-black"
+format = "[$time]($style)"
 
 [character]
 # Note the use of Catppuccin color 'maroon'
-success_symbol = "[[♥](green) ❯](maroon)"
-error_symbol = "[❯](red)"
-vimcmd_symbol = "[❮](green)"
+# success_symbol = "[[♥](green) ❯](maroon)"
+# error_symbol = "[❯](red)"
+# vimcmd_symbol = "[❮](green)"
+#
+# success_symbol = "[♥](green) [❯](red)[❯](yellow)[❯](green)"
+# error_symbol = "[❯](red)[❯](yellow)[❯](green)"
+# vimcmd_symbol = "[❮](green)[❮](yellow)[❮](red)"
+
+
+success_symbol = "[♥](green) [❯](yellow)[❯](green)"
+error_symbol = "[❯](yellow)[❯](green)"
+vimcmd_symbol = "[❮](green)[❮](yellow)"
 
 [directory]
 truncation_length = 4
