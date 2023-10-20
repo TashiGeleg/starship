@@ -1,13 +1,13 @@
 # Sets user-defined palette
 palette = "catppuccin_macchiato"
-right_format = "$time"
+# right_format = "$time"
 
-[time]
-disabled = false
+# [time]
+# disabled = false
 # use_12hr = true
-time_format = "%I:%M:%S %p"
-style = "bold bright-black"
-format = "[$time]($style)"
+# time_format = "%I:%M:%S %p"
+# style = "bold bright-black"
+# format = "[$time]($style)"
 
 [character]
 # Note the use of Catppuccin color 'maroon'
